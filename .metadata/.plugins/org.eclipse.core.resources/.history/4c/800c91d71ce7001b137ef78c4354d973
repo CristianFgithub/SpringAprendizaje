@@ -1,0 +1,5 @@
+package es.cristian.pruebaAnnotations;
+
+public interface CreacionInformeFinanciero {
+
+}

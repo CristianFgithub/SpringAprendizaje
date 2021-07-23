@@ -1,0 +1,33 @@
+package es.cristian.pruebaAnnotations;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class usoAnnotations2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//leer el xml de configuracion
+
+		ClassPathXmlApplicationContext contexto;
+		contexto = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		
+		// pedir un bean al contenedor
+		
+		Empleados Antonio = contexto.getBean("comercialExperimentado", Empleados.class);
+		
+		Empleados Lucia = contexto.getBean("comercialExperimentado", Empleados.class);
+		
+		//apuntan al mismo objeto ?
+			
+		if (Antonio == Lucia) {
+			System.out.println("Apuntan al mismo lugar en memoria");
+			System.out.println(Antonio + "\n" + Lucia);
+		}else {
+			System.out.println("No apuntan al mismo lugar en memoria");
+			System.out.println(Antonio + "\n" + Lucia);
+		}
+		
+	}
+
+}

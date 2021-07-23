@@ -1,0 +1,31 @@
+package es.cristian.pruebaAnnotations;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ComercialExperimentado implements Empleados {
+
+	
+	private CreacionInformeFinanciero nuevoInfrome;
+
+	public ComercialExperimentado(CreacionInformeFinanciero nuevoInfrome) {
+		super();
+		this.nuevoInfrome = nuevoInfrome;
+	}
+	
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Vender, vender y vender mas";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return "Informe generado por el comercial";
+	}
+
+
+	
+	
+}

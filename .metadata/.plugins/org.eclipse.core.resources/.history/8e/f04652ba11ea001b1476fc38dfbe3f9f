@@ -1,0 +1,23 @@
+package es.cristian.pruebaAnnotations;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class usoAnnotations2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//leer el xml de configuracion
+
+		ClassPathXmlApplicationContext contexto;
+		contexto = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		
+		// pedir un bean al contenedor
+		
+		Empleados Antonio = contexto.getBean("comercialExperimentado", Empleados.class);
+		
+		Empleados lucia = contexto.getBean("comercialExperimentado", Empleados.class);
+		
+	}
+
+}

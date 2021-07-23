@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Jul 22 13:47:20 CEST 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Cristian\\Documents\\Java\\SpringAprendizaje\\Spring_MVC_Ejemplo1\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Cristian\\Documents\\Java\\SpringAprendizaje\\Spring_MVC_Ejemplo1\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar

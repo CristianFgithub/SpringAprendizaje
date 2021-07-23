@@ -1,0 +1,11 @@
+127.0.0.1 - - [22/Jul/2021:09:32:16 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:22:24 +0200] "GET /Spring_MVC_Ejemplo1/ HTTP/1.1" 404 610
+127.0.0.1 - - [22/Jul/2021:13:22:39 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:22:49 +0200] "GET /Spring_MVC_Ejemplo1/ HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:46:52 +0200] "GET /Spring_MVC_Ejemplo1/ HTTP/1.1" 200 242
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:46:54 +0200] "GET /Spring_MVC_Ejemplo1/muestraFormulario HTTP/1.1" 404 610
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:47:29 +0200] "GET /Spring_MVC_Ejemplo1/muestraFormulario HTTP/1.1" 404 610
+127.0.0.1 - - [22/Jul/2021:13:47:47 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:47:57 +0200] "GET /Spring_MVC_Ejemplo1/ HTTP/1.1" 200 242
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:47:59 +0200] "GET /Spring_MVC_Ejemplo1/muestraFormulario HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:13:48:11 +0200] "GET /Spring_MVC_Ejemplo1/procesarFormulario?nombreAlumno=Pepe HTTP/1.1" 200 177

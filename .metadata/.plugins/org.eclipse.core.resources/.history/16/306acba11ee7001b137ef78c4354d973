@@ -1,0 +1,31 @@
+package es.cristian.pruebaAnnotations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ComercialExperimentado implements Empleados {
+
+	@Autowired
+	@Qualifier("informeFinancieroTrim2")
+	private CreacionInformeFinanciero nuevoInforme;
+
+	
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Vender, vender y vender mas";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		//return "Informe generado por el comercial";
+		return nuevoInforme.getInformeFinanciero();
+	}
+
+
+	
+	
+}
